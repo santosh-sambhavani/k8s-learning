@@ -44,7 +44,7 @@ Below are frequently used `kubectl` commands for managing a Kubernetes cluster:
 
 1. Create a resource from a YAML file:
    ```bash
-   kubectl create -f pod.yaml
+   kubectl create -f <file.yaml>
    ```
 2. View nodes in the cluster:
    ```bash
@@ -76,7 +76,7 @@ Below are frequently used `kubectl` commands for managing a Kubernetes cluster:
    ```
 9. Delete a resource from a YAML file:
    ```bash
-   kubectl delete -f pod.yaml
+   kubectl delete -f <file.yaml>
    ```
 
 **Tip:** Refer to [Kubernetes Cheat Sheets](https://kubernetes.io/docs/reference/kubectl/quick-reference/) for more commands.
