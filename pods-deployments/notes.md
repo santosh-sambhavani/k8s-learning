@@ -22,7 +22,7 @@ In comparison to platform-specific tools like AWS ECS:
 
 The control plane manages the Kubernetes cluster and includes the following components:
 
-- **API Server:** Takes this kind of desicions. And is keeps all info or we can say we can get info from this component of k8s cluster. and this component is brain of k8s cluster. i.e. Determines which node should host a specific pod.
+- **API Server:** The API server is a component of the Kubernetes control plane that exposes the Kubernetes API. The API server is the front end for the Kubernetes control plane.
 - **Scheduler:** Executes tasks from the API server, such as assigning pods to nodes.
 - **etcd:** Stores the entire cluster’s backup in a key-value pair format.
 - **Controller Manager:** Ensures that controllers like ReplicaSets are running as expected.
